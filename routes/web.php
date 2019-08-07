@@ -26,5 +26,8 @@ Route::get('contacto', function () {
     return view('contact');
 })->name('contact');
 Route::post('mensajes', function(){
+
+    Mail::send("vista");
+
     return request()->all();
 })->name('mensaje');
