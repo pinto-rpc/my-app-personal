@@ -70,9 +70,9 @@
             }
             ,
         }
-        , submitHandler: function(form) {
+        /*, submitHandler: function(form) {
             $(form).ajaxSubmit( {
-                type:"POST", data: $(form).serialize(), url:"sendmail.php", success: function() {
+                type:"POST", data: $(form).serialize(), route:'mensaje', success: function() {
                     $('#contact-form #success').fadeIn();
                 }
                 , error: function() {
@@ -80,7 +80,7 @@
                 }
             }
             );
-        }
+        }*/
     });
 
 
