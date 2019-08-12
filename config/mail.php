@@ -28,8 +28,9 @@ return [
     | the Mailgun mail service which will provide reliable deliveries.
     |
     */
+    
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.mailtrap.io'),
 
     /*
     |--------------------------------------------------------------------------
@@ -84,9 +85,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('489b84764f8246'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('ff10c91ae64ab4'),
 
     /*
     |--------------------------------------------------------------------------

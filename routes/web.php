@@ -26,8 +26,12 @@ Route::get('contacto', function () {
     return view('contact');
 })->name('contact');
 Route::post('mensajes', function(){
+    $data = request()->all();
+    Mail::send("emails.emails", $data, function($message) use($data){
+        $message->from($data['email'], $data['name'])
+                ->to('amistad.hola@gmail.com', 'Rodrigo')
+                ->subject($data['subject']);
+    });
 
-    Mail::send("vista");
-
-    return request()->all();
+    return back();
 })->name('mensaje');

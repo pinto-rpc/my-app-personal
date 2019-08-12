@@ -58,7 +58,7 @@
                             </div>
                             
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
-                                <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>    
+                                <textarea rows="6" placeholder="Message" class="form-control" name="body" id="message"></textarea>    
                             </div>
                             
                             <!--<div id="success" class="success">

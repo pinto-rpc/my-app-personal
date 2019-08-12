@@ -53,7 +53,7 @@
             , subject: {
                 required: false,
             }
-            , message: {
+            , body: {
                 required: true,
             }
             ,
@@ -65,7 +65,7 @@
             , email: {
                 required: "Please put your email address",
             }
-            , message: {
+            , body: {
                 required: "Put some messages here?", minlength: "Your name must consist of at least 2 characters"
             }
             ,

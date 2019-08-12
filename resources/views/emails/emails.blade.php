@@ -2,4 +2,4 @@
 <p><b>Nombre:</b>{{ $name }}</p>
 <p><b>Correo:</b>{{ $email }}</p>
 <p><b>Asunto:</b>{{ $subject }}</p>
-<p><b>Mensaje:</b>{{ $message }}</p>
+<p><b>Mensaje:</b>{{ $body }}</p>
