@@ -1,4 +1,4 @@
-<h1>Mnesaje recibido de {{ $name }}</h1>
+<h1>Mensaje recibido de {{ $name }}</h1>
 <p><b>Nombre:</b>{{ $name }}</p>
 <p><b>Correo:</b>{{ $email }}</p>
 <p><b>Asunto:</b>{{ $subject }}</p>

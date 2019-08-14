@@ -13,7 +13,7 @@ Slider Section Start
                 <!-- Slider -->
                 <section class="cd-intro">
                     <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
-                    <span>HI, MY NAME IS JONATHON & I AM A</span><br>
+                    <span>HI, MY NAME IS RODRIGO & I AM A</span><br>
                     <span class="cd-words-wrapper">
                         <b class="is-visible">DESIGNER</b>
                         <b>DEVELOPER</b>

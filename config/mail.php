@@ -30,7 +30,7 @@ return [
     */
     
 
-    'host' => env('MAIL_HOST', 'smtp.mailtrap.io'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -85,9 +85,9 @@ return [
     |
     */
 
-    'username' => env('489b84764f8246'),
+    'username' => env('MAIL_USERNAME'),
 
-    'password' => env('ff10c91ae64ab4'),
+    'password' => env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------

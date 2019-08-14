@@ -33,5 +33,5 @@ Route::post('mensajes', function(){
                 ->subject($data['subject']);
     });
 
-    return back();
+    return back()->with('flash', $data['name'] . ', Tu mensaje ha sido recibido');
 })->name('mensaje');
